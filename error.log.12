@@ -1,0 +1,10 @@
+[Thu Nov 19 06:25:05.930160 2020] [mpm_prefork:notice] [pid 20228] AH00163: Apache/2.4.29 (Ubuntu) OpenSSL/1.1.1 configured -- resuming normal operations
+[Thu Nov 19 06:25:05.930210 2020] [core:notice] [pid 20228] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Nov 19 07:26:51.643627 2020] [php7:error] [pid 4659] [client 91.241.19.84:38920] script '/var/www/geolynx.com.ar/index.php' not found or unable to stat
+[Thu Nov 19 09:39:03.221936 2020] [php7:error] [pid 9016] [client 140.246.129.208:36162] script '/var/www/geolynx.com.ar/elrekt.php' not found or unable to stat
+[Thu Nov 19 09:39:03.713958 2020] [php7:error] [pid 4659] [client 140.246.129.208:38098] script '/var/www/geolynx.com.ar/index.php' not found or unable to stat
+[Thu Nov 19 12:46:52.856592 2020] [php7:error] [pid 4722] [client 89.248.172.90:42938] script '/var/www/geolynx.com.ar/azenv.php' not found or unable to stat
+[Thu Nov 19 18:56:34.229507 2020] [php7:error] [pid 9022] [client 91.241.19.84:51916] script '/var/www/geolynx.com.ar/index.php' not found or unable to stat
+[Thu Nov 19 20:06:57.259646 2020] [php7:error] [pid 4657] [client 5.188.210.227:55863] script '/var/www/geolynx.com.ar/echo.php' not found or unable to stat, referer: https://www.google.com/
+[Fri Nov 20 02:51:24.067905 2020] [php7:error] [pid 4656] [client 91.241.19.84:58564] script '/var/www/geolynx.com.ar/index.php' not found or unable to stat
+[Fri Nov 20 06:25:04.746990 2020] [mpm_prefork:notice] [pid 20228] AH00171: Graceful restart requested, doing restart

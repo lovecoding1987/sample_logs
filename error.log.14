@@ -1,0 +1,13 @@
+[Tue Nov 17 06:25:06.483423 2020] [mpm_prefork:notice] [pid 20228] AH00163: Apache/2.4.29 (Ubuntu) OpenSSL/1.1.1 configured -- resuming normal operations
+[Tue Nov 17 06:25:06.483482 2020] [core:notice] [pid 20228] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Nov 17 07:59:48.435209 2020] [php7:error] [pid 20351] [client 91.241.19.84:36374] script '/var/www/geolynx.com.ar/index.php' not found or unable to stat
+[Tue Nov 17 11:33:02.074997 2020] [php7:error] [pid 20352] [client 188.165.239.211:56572] script '/var/www/geolynx.com.ar/wp-login.php' not found or unable to stat
+[Tue Nov 17 14:23:18.083400 2020] [php7:error] [pid 22415] [client 91.241.19.84:47436] script '/var/www/geolynx.com.ar/index.php' not found or unable to stat
+[Tue Nov 17 15:43:00.404844 2020] [php7:error] [pid 20351] [client 54.38.253.1:55324] script '/var/www/geolynx.com.ar/wp-login.php' not found or unable to stat
+[Tue Nov 17 19:04:36.417772 2020] [php7:error] [pid 20351] [client 35.224.216.78:49494] script '/var/www/geolynx.com.ar/wp-login.php' not found or unable to stat, referer: http://www.geolynx.com.ar/wp-login.php
+[Tue Nov 17 22:36:55.234190 2020] [php7:error] [pid 20354] [client 91.241.19.84:53616] script '/var/www/geolynx.com.ar/index.php' not found or unable to stat
+[Tue Nov 17 23:05:27.376689 2020] [php7:error] [pid 21239] [client 103.111.30.40:35644] script '/var/www/geolynx.com.ar/wp-login.php' not found or unable to stat, referer: http://geolynx.com.ar/wp-login.php
+[Tue Nov 17 23:42:19.452739 2020] [core:error] [pid 20353] [client 193.174.89.19:50308] AH00126: Invalid URI in request GET stager HTTP/1.1
+[Tue Nov 17 23:42:19.701514 2020] [core:error] [pid 20351] [client 193.174.89.19:52154] AH00126: Invalid URI in request GET stager64 HTTP/1.1
+[Wed Nov 18 03:30:39.920580 2020] [php7:error] [pid 20353] [client 85.203.46.157:4859] script '/var/www/geolynx.com.ar/judge.php' not found or unable to stat
+[Wed Nov 18 06:25:04.440623 2020] [mpm_prefork:notice] [pid 20228] AH00171: Graceful restart requested, doing restart

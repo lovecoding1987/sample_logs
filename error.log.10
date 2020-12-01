@@ -1,0 +1,14 @@
+[Sat Nov 21 06:25:04.872627 2020] [mpm_prefork:notice] [pid 20228] AH00163: Apache/2.4.29 (Ubuntu) OpenSSL/1.1.1 configured -- resuming normal operations
+[Sat Nov 21 06:25:04.872676 2020] [core:notice] [pid 20228] AH00094: Command line: '/usr/sbin/apache2'
+[Sat Nov 21 11:27:11.382138 2020] [php7:error] [pid 6476] [client 89.248.172.90:33227] script '/var/www/geolynx.com.ar/azenv.php' not found or unable to stat
+[Sat Nov 21 11:56:47.682928 2020] [core:error] [pid 6162] [client 89.100.27.100:42708] AH00135: Invalid method in request XHMQ / HTTP/1.1
+[Sat Nov 21 11:56:47.963235 2020] [core:error] [pid 6161] [client 89.100.27.100:58518] AH00135: Invalid method in request NEUA / HTTP/1.1
+[Sat Nov 21 13:00:50.557166 2020] [php7:error] [pid 12476] [client 91.241.19.84:45186] script '/var/www/geolynx.com.ar/index.php' not found or unable to stat
+[Sat Nov 21 18:02:35.304540 2020] [php7:error] [pid 6160] [client 106.54.220.51:50374] script '/var/www/geolynx.com.ar/elrekt.php' not found or unable to stat
+[Sat Nov 21 18:02:35.735918 2020] [php7:error] [pid 6159] [client 106.54.220.51:51768] script '/var/www/geolynx.com.ar/index.php' not found or unable to stat
+[Sat Nov 21 18:38:12.927806 2020] [php7:error] [pid 6162] [client 49.235.121.14:53686] script '/var/www/geolynx.com.ar/elrekt.php' not found or unable to stat
+[Sat Nov 21 18:38:13.406254 2020] [php7:error] [pid 6476] [client 49.235.121.14:53898] script '/var/www/geolynx.com.ar/index.php' not found or unable to stat
+[Sat Nov 21 19:22:43.609310 2020] [php7:error] [pid 6159] [client 91.241.19.84:42810] script '/var/www/geolynx.com.ar/index.php' not found or unable to stat
+[Sun Nov 22 03:02:36.346647 2020] [php7:error] [pid 6161] [client 47.203.209.56:41418] script '/var/www/geolynx.com.ar/azenv.php' not found or unable to stat
+[Sun Nov 22 04:27:20.354431 2020] [php7:error] [pid 6162] [client 91.241.19.84:33830] script '/var/www/geolynx.com.ar/index.php' not found or unable to stat
+[Sun Nov 22 06:25:04.421417 2020] [mpm_prefork:notice] [pid 20228] AH00171: Graceful restart requested, doing restart

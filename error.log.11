@@ -1,0 +1,6 @@
+[Fri Nov 20 06:25:05.234273 2020] [mpm_prefork:notice] [pid 20228] AH00163: Apache/2.4.29 (Ubuntu) OpenSSL/1.1.1 configured -- resuming normal operations
+[Fri Nov 20 06:25:05.234327 2020] [core:notice] [pid 20228] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Nov 20 07:36:51.686892 2020] [php7:error] [pid 512] [client 91.241.19.84:54264] script '/var/www/geolynx.com.ar/index.php' not found or unable to stat
+[Fri Nov 20 22:31:31.345276 2020] [php7:error] [pid 513] [client 91.241.19.84:55978] script '/var/www/geolynx.com.ar/index.php' not found or unable to stat
+[Sat Nov 21 01:51:46.880290 2020] [php7:error] [pid 32113] [client 91.241.19.84:54830] script '/var/www/geolynx.com.ar/index.php' not found or unable to stat
+[Sat Nov 21 06:25:04.371532 2020] [mpm_prefork:notice] [pid 20228] AH00171: Graceful restart requested, doing restart
