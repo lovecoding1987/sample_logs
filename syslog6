@@ -1,0 +1,451 @@
+Nov 30 07:28:39 ip-172-31-0-90 systemd[1]: Stopping System Logging Service...
+Nov 30 07:28:39 ip-172-31-0-90 rsyslogd:  [origin software="rsyslogd" swVersion="8.32.0" x-pid="1030" x-info="http://www.rsyslog.com"] exiting on signal 15.
+Nov 30 07:28:39 ip-172-31-0-90 systemd[1]: Stopped System Logging Service.
+Nov 30 07:28:39 ip-172-31-0-90 systemd[1]: Starting System Logging Service...
+Nov 30 07:28:39 ip-172-31-0-90 systemd[1]: Started System Logging Service.
+Nov 30 07:28:39 ip-172-31-0-90 rsyslogd: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.32.0]
+Nov 30 07:28:39 ip-172-31-0-90 rsyslogd: rsyslogd's groupid changed to 106
+Nov 30 07:28:39 ip-172-31-0-90 rsyslogd: rsyslogd's userid changed to 102
+Nov 30 07:28:39 ip-172-31-0-90 rsyslogd:  [origin software="rsyslogd" swVersion="8.32.0" x-pid="8024" x-info="http://www.rsyslog.com"] start
+Nov 30 07:55:05 ip-172-31-0-90 systemd-networkd[886]: eth0: Configured
+Nov 30 07:55:05 ip-172-31-0-90 systemd-timesyncd[555]: Network configuration changed, trying to establish connection.
+Nov 30 07:55:05 ip-172-31-0-90 systemd-timesyncd[555]: Synchronized to time server 91.189.91.157:123 (ntp.ubuntu.com).
+Nov 30 08:00:19 ip-172-31-0-90 amazon-ssm-agent.amazon-ssm-agent[1509]: 2020-11-30 08:00:19 INFO Backing off health check to every 2400 seconds for 7200 seconds.
+Nov 30 08:00:19 ip-172-31-0-90 amazon-ssm-agent.amazon-ssm-agent[1509]: 2020-11-30 08:00:19 ERROR Health ping failed with error - EC2RoleRequestError: no EC2 instance role found
+Nov 30 08:00:19 ip-172-31-0-90 amazon-ssm-agent.amazon-ssm-agent[1509]: caused by: EC2MetadataError: failed to make EC2Metadata request
+Nov 30 08:00:19 ip-172-31-0-90 amazon-ssm-agent.amazon-ssm-agent[1509]: #011status code: 404, request id:
+Nov 30 08:00:19 ip-172-31-0-90 amazon-ssm-agent.amazon-ssm-agent[1509]: caused by: <?xml version="1.0" encoding="iso-8859-1"?>
+Nov 30 08:00:19 ip-172-31-0-90 amazon-ssm-agent.amazon-ssm-agent[1509]: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+Nov 30 08:00:19 ip-172-31-0-90 amazon-ssm-agent.amazon-ssm-agent[1509]: #011"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+Nov 30 08:00:19 ip-172-31-0-90 amazon-ssm-agent.amazon-ssm-agent[1509]: <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+Nov 30 08:00:19 ip-172-31-0-90 amazon-ssm-agent.amazon-ssm-agent[1509]:  <head>
+Nov 30 08:00:19 ip-172-31-0-90 amazon-ssm-agent.amazon-ssm-agent[1509]:   <title>404 - Not Found</title>
+Nov 30 08:00:19 ip-172-31-0-90 amazon-ssm-agent.amazon-ssm-agent[1509]:  </head>
+Nov 30 08:00:19 ip-172-31-0-90 amazon-ssm-agent.amazon-ssm-agent[1509]:  <body>
+Nov 30 08:00:19 ip-172-31-0-90 amazon-ssm-agent.amazon-ssm-agent[1509]:   <h1>404 - Not Found</h1>
+Nov 30 08:00:19 ip-172-31-0-90 amazon-ssm-agent.amazon-ssm-agent[1509]:  </body>
+Nov 30 08:00:19 ip-172-31-0-90 amazon-ssm-agent.amazon-ssm-agent[1509]: </html>
+Nov 30 08:17:01 ip-172-31-0-90 CRON[8073]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Nov 30 08:25:05 ip-172-31-0-90 systemd-networkd[886]: eth0: Configured
+Nov 30 08:25:05 ip-172-31-0-90 systemd-timesyncd[555]: Network configuration changed, trying to establish connection.
+Nov 30 08:25:05 ip-172-31-0-90 systemd-timesyncd[555]: Synchronized to time server 91.189.91.157:123 (ntp.ubuntu.com).
+Nov 30 09:06:21 ip-172-31-0-90 systemd-networkd[886]: eth0: Configured
+Nov 30 09:06:21 ip-172-31-0-90 systemd-timesyncd[555]: Network configuration changed, trying to establish connection.
+Nov 30 09:06:22 ip-172-31-0-90 systemd-timesyncd[555]: Synchronized to time server 91.189.91.157:123 (ntp.ubuntu.com).
+Nov 30 09:17:01 ip-172-31-0-90 CRON[8128]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Nov 30 09:36:21 ip-172-31-0-90 systemd-networkd[886]: eth0: Configured
+Nov 30 09:36:21 ip-172-31-0-90 systemd-timesyncd[555]: Network configuration changed, trying to establish connection.
+Nov 30 09:36:22 ip-172-31-0-90 systemd-timesyncd[555]: Synchronized to time server 91.189.91.157:123 (ntp.ubuntu.com).
+Nov 30 10:00:19 ip-172-31-0-90 amazon-ssm-agent.amazon-ssm-agent[1509]: 2020-11-30 10:00:19 INFO Backing off health check to every 3600 seconds for 10800 seconds.
+Nov 30 10:00:19 ip-172-31-0-90 amazon-ssm-agent.amazon-ssm-agent[1509]: 2020-11-30 10:00:19 ERROR Health ping failed with error - EC2RoleRequestError: no EC2 instance role found
+Nov 30 10:00:19 ip-172-31-0-90 amazon-ssm-agent.amazon-ssm-agent[1509]: caused by: EC2MetadataError: failed to make EC2Metadata request
+Nov 30 10:00:19 ip-172-31-0-90 amazon-ssm-agent.amazon-ssm-agent[1509]: #011status code: 404, request id:
+Nov 30 10:00:19 ip-172-31-0-90 amazon-ssm-agent.amazon-ssm-agent[1509]: caused by: <?xml version="1.0" encoding="iso-8859-1"?>
+Nov 30 10:00:19 ip-172-31-0-90 amazon-ssm-agent.amazon-ssm-agent[1509]: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+Nov 30 10:00:19 ip-172-31-0-90 amazon-ssm-agent.amazon-ssm-agent[1509]: #011"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+Nov 30 10:00:19 ip-172-31-0-90 amazon-ssm-agent.amazon-ssm-agent[1509]: <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+Nov 30 10:00:19 ip-172-31-0-90 amazon-ssm-agent.amazon-ssm-agent[1509]:  <head>
+Nov 30 10:00:19 ip-172-31-0-90 amazon-ssm-agent.amazon-ssm-agent[1509]:   <title>404 - Not Found</title>
+Nov 30 10:00:19 ip-172-31-0-90 amazon-ssm-agent.amazon-ssm-agent[1509]:  </head>
+Nov 30 10:00:19 ip-172-31-0-90 amazon-ssm-agent.amazon-ssm-agent[1509]:  <body>
+Nov 30 10:00:19 ip-172-31-0-90 amazon-ssm-agent.amazon-ssm-agent[1509]:   <h1>404 - Not Found</h1>
+Nov 30 10:00:19 ip-172-31-0-90 amazon-ssm-agent.amazon-ssm-agent[1509]:  </body>
+Nov 30 10:00:19 ip-172-31-0-90 amazon-ssm-agent.amazon-ssm-agent[1509]: </html>
+Nov 30 10:06:20 ip-172-31-0-90 systemd-networkd[886]: eth0: Configured
+Nov 30 10:06:20 ip-172-31-0-90 systemd-timesyncd[555]: Network configuration changed, trying to establish connection.
+Nov 30 10:06:20 ip-172-31-0-90 systemd-timesyncd[555]: Synchronized to time server 91.189.91.157:123 (ntp.ubuntu.com).
+Nov 30 10:17:01 ip-172-31-0-90 CRON[8155]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Nov 30 10:36:20 ip-172-31-0-90 systemd-networkd[886]: eth0: Configured
+Nov 30 10:36:20 ip-172-31-0-90 systemd-timesyncd[555]: Network configuration changed, trying to establish connection.
+Nov 30 10:36:20 ip-172-31-0-90 systemd-timesyncd[555]: Synchronized to time server 91.189.91.157:123 (ntp.ubuntu.com).
+Nov 30 11:06:20 ip-172-31-0-90 systemd-networkd[886]: eth0: Configured
+Nov 30 11:06:20 ip-172-31-0-90 systemd-timesyncd[555]: Network configuration changed, trying to establish connection.
+Nov 30 11:06:20 ip-172-31-0-90 systemd-timesyncd[555]: Synchronized to time server 91.189.91.157:123 (ntp.ubuntu.com).
+Nov 30 11:17:01 ip-172-31-0-90 CRON[8169]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Nov 30 11:36:19 ip-172-31-0-90 systemd-networkd[886]: eth0: Configured
+Nov 30 11:36:19 ip-172-31-0-90 systemd-timesyncd[555]: Network configuration changed, trying to establish connection.
+Nov 30 11:36:19 ip-172-31-0-90 systemd-timesyncd[555]: Synchronized to time server 91.189.91.157:123 (ntp.ubuntu.com).
+Nov 30 12:06:19 ip-172-31-0-90 systemd-networkd[886]: eth0: Configured
+Nov 30 12:06:19 ip-172-31-0-90 systemd-timesyncd[555]: Network configuration changed, trying to establish connection.
+Nov 30 12:06:19 ip-172-31-0-90 systemd-timesyncd[555]: Synchronized to time server 91.189.91.157:123 (ntp.ubuntu.com).
+Nov 30 12:17:01 ip-172-31-0-90 CRON[8187]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Nov 30 12:36:18 ip-172-31-0-90 systemd-networkd[886]: eth0: Configured
+Nov 30 12:36:18 ip-172-31-0-90 systemd-timesyncd[555]: Network configuration changed, trying to establish connection.
+Nov 30 12:36:18 ip-172-31-0-90 systemd-timesyncd[555]: Synchronized to time server 91.189.91.157:123 (ntp.ubuntu.com).
+Nov 30 13:00:19 ip-172-31-0-90 amazon-ssm-agent.amazon-ssm-agent[1509]: 2020-11-30 13:00:19 ERROR Health ping failed with error - EC2RoleRequestError: no EC2 instance role found
+Nov 30 13:00:19 ip-172-31-0-90 amazon-ssm-agent.amazon-ssm-agent[1509]: caused by: EC2MetadataError: failed to make EC2Metadata request
+Nov 30 13:00:19 ip-172-31-0-90 amazon-ssm-agent.amazon-ssm-agent[1509]: #011status code: 404, request id:
+Nov 30 13:00:19 ip-172-31-0-90 amazon-ssm-agent.amazon-ssm-agent[1509]: caused by: <?xml version="1.0" encoding="iso-8859-1"?>
+Nov 30 13:00:19 ip-172-31-0-90 amazon-ssm-agent.amazon-ssm-agent[1509]: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+Nov 30 13:00:19 ip-172-31-0-90 amazon-ssm-agent.amazon-ssm-agent[1509]: #011"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+Nov 30 13:00:19 ip-172-31-0-90 amazon-ssm-agent.amazon-ssm-agent[1509]: <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+Nov 30 13:00:19 ip-172-31-0-90 amazon-ssm-agent.amazon-ssm-agent[1509]:  <head>
+Nov 30 13:00:19 ip-172-31-0-90 amazon-ssm-agent.amazon-ssm-agent[1509]:   <title>404 - Not Found</title>
+Nov 30 13:00:19 ip-172-31-0-90 amazon-ssm-agent.amazon-ssm-agent[1509]:  </head>
+Nov 30 13:00:19 ip-172-31-0-90 amazon-ssm-agent.amazon-ssm-agent[1509]:  <body>
+Nov 30 13:00:19 ip-172-31-0-90 amazon-ssm-agent.amazon-ssm-agent[1509]:   <h1>404 - Not Found</h1>
+Nov 30 13:00:19 ip-172-31-0-90 amazon-ssm-agent.amazon-ssm-agent[1509]:  </body>
+Nov 30 13:00:19 ip-172-31-0-90 amazon-ssm-agent.amazon-ssm-agent[1509]: </html>
+Nov 30 13:06:18 ip-172-31-0-90 systemd-networkd[886]: eth0: Configured
+Nov 30 13:06:18 ip-172-31-0-90 systemd-timesyncd[555]: Network configuration changed, trying to establish connection.
+Nov 30 13:06:18 ip-172-31-0-90 systemd-timesyncd[555]: Synchronized to time server 91.189.91.157:123 (ntp.ubuntu.com).
+Nov 30 13:17:01 ip-172-31-0-90 CRON[8197]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Nov 30 13:47:34 ip-172-31-0-90 systemd-networkd[886]: eth0: Configured
+Nov 30 13:47:34 ip-172-31-0-90 systemd-timesyncd[555]: Network configuration changed, trying to establish connection.
+Nov 30 13:47:34 ip-172-31-0-90 systemd-timesyncd[555]: Synchronized to time server 91.189.91.157:123 (ntp.ubuntu.com).
+Nov 30 14:05:21 ip-172-31-0-90 snapd[1343]: storehelpers.go:551: cannot refresh snap "core": snap has no updates available
+Nov 30 14:07:57 ip-172-31-0-90 systemd[1]: Reloading.
+Nov 30 14:07:57 ip-172-31-0-90 systemd[1]: Mounting Mount unit for core18, revision 1932...
+Nov 30 14:07:57 ip-172-31-0-90 systemd[1]: Mounted Mount unit for core18, revision 1932.
+Nov 30 14:09:29 ip-172-31-0-90 systemd[1]: Reloading.
+Nov 30 14:09:30 ip-172-31-0-90 systemd[1]: Mounting Mount unit for amazon-ssm-agent, revision 2996...
+Nov 30 14:09:30 ip-172-31-0-90 systemd[1]: Mounted Mount unit for amazon-ssm-agent, revision 2996.
+Nov 30 14:09:30 ip-172-31-0-90 systemd[1]: Stopping Service for snap application amazon-ssm-agent.amazon-ssm-agent...
+Nov 30 14:09:30 ip-172-31-0-90 amazon-ssm-agent.amazon-ssm-agent[1509]: 2020-11-30 14:09:30 INFO Got signal:terminated value:0x5573ec301240
+Nov 30 14:09:30 ip-172-31-0-90 amazon-ssm-agent.amazon-ssm-agent[1509]: 2020-11-30 14:09:30 INFO Stopping agent
+Nov 30 14:09:30 ip-172-31-0-90 systemd[1]: Stopped Service for snap application amazon-ssm-agent.amazon-ssm-agent.
+Nov 30 14:09:30 ip-172-31-0-90 systemd[1]: Reloading.
+Nov 30 14:09:30 ip-172-31-0-90 kernel: [27877.170158] audit: type=1400 audit(1606745370.804:24): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.amazon-ssm-agent.amazon-ssm-agent" pid=8404 comm="apparmor_parser"
+Nov 30 14:09:30 ip-172-31-0-90 kernel: [27877.173105] audit: type=1400 audit(1606745370.804:25): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.amazon-ssm-agent.ssm-cli" pid=8405 comm="apparmor_parser"
+Nov 30 14:09:30 ip-172-31-0-90 kernel: [27877.179846] audit: type=1400 audit(1606745370.812:26): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.amazon-ssm-agent" pid=8407 comm="apparmor_parser"
+Nov 30 14:09:30 ip-172-31-0-90 systemd[1]: Reloading.
+Nov 30 14:09:31 ip-172-31-0-90 systemd[1]: Started Service for snap application amazon-ssm-agent.amazon-ssm-agent.
+Nov 30 14:09:31 ip-172-31-0-90 snapd[1343]: storehelpers.go:551: cannot refresh snap "amazon-ssm-agent": snap has no updates available
+Nov 30 14:09:31 ip-172-31-0-90 amazon-ssm-agent.amazon-ssm-agent[8439]: Error occurred fetching the seelog config file path:  open /etc/amazon/ssm/seelog.xml: no such file or directory
+Nov 30 14:09:31 ip-172-31-0-90 amazon-ssm-agent.amazon-ssm-agent[8439]: Initializing new seelog logger
+Nov 30 14:09:31 ip-172-31-0-90 amazon-ssm-agent.amazon-ssm-agent[8439]: New Seelog Logger Creation Complete
+Nov 30 14:09:31 ip-172-31-0-90 amazon-ssm-agent.amazon-ssm-agent[8439]: 2020-11-30 14:09:31 ERROR Error adding the directory to watcher: no such file or directory
+Nov 30 14:09:33 ip-172-31-0-90 amazon-ssm-agent.amazon-ssm-agent[8439]: 2020-11-30 14:09:33 INFO [amazon-ssm-agent] [SelfUpdate] Initializing self update ...
+Nov 30 14:09:33 ip-172-31-0-90 amazon-ssm-agent.amazon-ssm-agent[8439]: 2020-11-30 14:09:33 INFO [amazon-ssm-agent] Starting Core Agent: amazon-ssm-agent - v3.0.161.0
+Nov 30 14:09:34 ip-172-31-0-90 amazon-ssm-agent.amazon-ssm-agent[8439]: 2020-11-30 14:09:33 INFO [amazon-ssm-agent] OS: linux, Arch: amd64
+Nov 30 14:09:35 ip-172-31-0-90 amazon-ssm-agent.amazon-ssm-agent[8439]: 2020-11-30 14:09:35 INFO [amazon-ssm-agent] [LongRunningWorkerContainer] [WorkerProvider] Worker ssm-agent-worker is not running, starting worker process
+Nov 30 14:09:35 ip-172-31-0-90 amazon-ssm-agent.amazon-ssm-agent[8439]: 2020-11-30 14:09:35 INFO [amazon-ssm-agent] [LongRunningWorkerContainer] [WorkerProvider] Worker ssm-agent-worker (pid:8490) started
+Nov 30 14:09:35 ip-172-31-0-90 amazon-ssm-agent.amazon-ssm-agent[8439]: 2020-11-30 14:09:35 INFO [amazon-ssm-agent] [LongRunningWorkerContainer] Monitor long running worker health every 60 seconds
+Nov 30 14:17:01 ip-172-31-0-90 CRON[8507]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Nov 30 14:17:34 ip-172-31-0-90 systemd-networkd[886]: eth0: Configured
+Nov 30 14:17:34 ip-172-31-0-90 systemd-timesyncd[555]: Network configuration changed, trying to establish connection.
+Nov 30 14:17:35 ip-172-31-0-90 systemd-timesyncd[555]: Synchronized to time server 91.189.91.157:123 (ntp.ubuntu.com).
+Nov 30 14:47:34 ip-172-31-0-90 systemd-networkd[886]: eth0: Configured
+Nov 30 14:47:34 ip-172-31-0-90 systemd-timesyncd[555]: Network configuration changed, trying to establish connection.
+Nov 30 14:47:35 ip-172-31-0-90 systemd-timesyncd[555]: Synchronized to time server 91.189.91.157:123 (ntp.ubuntu.com).
+Nov 30 15:17:02 ip-172-31-0-90 CRON[8580]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Nov 30 15:17:35 ip-172-31-0-90 systemd-networkd[886]: eth0: Configured
+Nov 30 15:17:35 ip-172-31-0-90 systemd-timesyncd[555]: Network configuration changed, trying to establish connection.
+Nov 30 15:17:35 ip-172-31-0-90 systemd-timesyncd[555]: Synchronized to time server 91.189.91.157:123 (ntp.ubuntu.com).
+Nov 30 15:47:34 ip-172-31-0-90 systemd-networkd[886]: eth0: Configured
+Nov 30 15:47:34 ip-172-31-0-90 systemd-timesyncd[555]: Network configuration changed, trying to establish connection.
+Nov 30 15:47:34 ip-172-31-0-90 systemd-timesyncd[555]: Synchronized to time server 91.189.91.157:123 (ntp.ubuntu.com).
+Nov 30 16:17:01 ip-172-31-0-90 CRON[8677]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Nov 30 16:17:32 ip-172-31-0-90 systemd-timesyncd[555]: Network configuration changed, trying to establish connection.
+Nov 30 16:17:32 ip-172-31-0-90 systemd-networkd[886]: eth0: Configured
+Nov 30 16:17:32 ip-172-31-0-90 systemd-timesyncd[555]: Synchronized to time server 91.189.91.157:123 (ntp.ubuntu.com).
+Nov 30 16:47:32 ip-172-31-0-90 systemd-networkd[886]: eth0: Configured
+Nov 30 16:47:32 ip-172-31-0-90 systemd-timesyncd[555]: Network configuration changed, trying to establish connection.
+Nov 30 16:47:32 ip-172-31-0-90 systemd-timesyncd[555]: Synchronized to time server 91.189.91.157:123 (ntp.ubuntu.com).
+Nov 30 17:17:01 ip-172-31-0-90 CRON[8742]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Nov 30 17:17:30 ip-172-31-0-90 systemd-networkd[886]: eth0: Configured
+Nov 30 17:17:30 ip-172-31-0-90 systemd-timesyncd[555]: Network configuration changed, trying to establish connection.
+Nov 30 17:17:31 ip-172-31-0-90 systemd-timesyncd[555]: Synchronized to time server 91.189.91.157:123 (ntp.ubuntu.com).
+Nov 30 17:47:31 ip-172-31-0-90 systemd-networkd[886]: eth0: Configured
+Nov 30 17:47:31 ip-172-31-0-90 systemd-timesyncd[555]: Network configuration changed, trying to establish connection.
+Nov 30 17:47:31 ip-172-31-0-90 systemd-timesyncd[555]: Synchronized to time server 91.189.91.157:123 (ntp.ubuntu.com).
+Nov 30 18:17:01 ip-172-31-0-90 CRON[8823]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Nov 30 18:17:30 ip-172-31-0-90 systemd-networkd[886]: eth0: Configured
+Nov 30 18:17:30 ip-172-31-0-90 systemd-timesyncd[555]: Network configuration changed, trying to establish connection.
+Nov 30 18:17:30 ip-172-31-0-90 systemd-timesyncd[555]: Synchronized to time server 91.189.91.157:123 (ntp.ubuntu.com).
+Nov 30 18:47:29 ip-172-31-0-90 systemd-networkd[886]: eth0: Configured
+Nov 30 18:47:29 ip-172-31-0-90 systemd-timesyncd[555]: Network configuration changed, trying to establish connection.
+Nov 30 18:47:30 ip-172-31-0-90 systemd-timesyncd[555]: Synchronized to time server 91.189.91.157:123 (ntp.ubuntu.com).
+Nov 30 19:17:01 ip-172-31-0-90 CRON[8888]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Nov 30 19:17:30 ip-172-31-0-90 systemd-networkd[886]: eth0: Configured
+Nov 30 19:17:30 ip-172-31-0-90 systemd-timesyncd[555]: Network configuration changed, trying to establish connection.
+Nov 30 19:17:30 ip-172-31-0-90 systemd-timesyncd[555]: Synchronized to time server 91.189.91.157:123 (ntp.ubuntu.com).
+Nov 30 19:47:30 ip-172-31-0-90 systemd-networkd[886]: eth0: Configured
+Nov 30 19:47:30 ip-172-31-0-90 systemd-timesyncd[555]: Network configuration changed, trying to establish connection.
+Nov 30 19:47:30 ip-172-31-0-90 systemd-timesyncd[555]: Synchronized to time server 91.189.91.157:123 (ntp.ubuntu.com).
+Nov 30 20:07:37 ip-172-31-0-90 systemd[1]: Stopping User Manager for UID 1000...
+Nov 30 20:07:37 ip-172-31-0-90 systemd[1697]: Stopped target Default.
+Nov 30 20:07:37 ip-172-31-0-90 systemd[1697]: Stopped target Basic System.
+Nov 30 20:07:37 ip-172-31-0-90 systemd[1697]: Stopped target Sockets.
+Nov 30 20:07:37 ip-172-31-0-90 systemd[1697]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Nov 30 20:07:37 ip-172-31-0-90 systemd[1697]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Nov 30 20:07:37 ip-172-31-0-90 systemd[1697]: Closed GnuPG cryptographic agent and passphrase cache.
+Nov 30 20:07:37 ip-172-31-0-90 systemd[1697]: Stopped target Timers.
+Nov 30 20:07:37 ip-172-31-0-90 systemd[1697]: Closed GnuPG network certificate management daemon.
+Nov 30 20:07:37 ip-172-31-0-90 systemd[1697]: Stopped target Paths.
+Nov 30 20:07:37 ip-172-31-0-90 systemd[1697]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Nov 30 20:07:37 ip-172-31-0-90 systemd[1697]: Closed REST API socket for snapd user session agent.
+Nov 30 20:07:37 ip-172-31-0-90 systemd[1697]: Reached target Shutdown.
+Nov 30 20:07:37 ip-172-31-0-90 systemd[1697]: Starting Exit the Session...
+Nov 30 20:07:37 ip-172-31-0-90 systemd[1697]: Received SIGRTMIN+24 from PID 9075 (kill).
+Nov 30 20:07:37 ip-172-31-0-90 systemd[1]: Stopped User Manager for UID 1000.
+Nov 30 20:07:37 ip-172-31-0-90 systemd[1]: Removed slice User Slice of ubuntu.
+Nov 30 20:17:01 ip-172-31-0-90 CRON[9093]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Nov 30 20:17:30 ip-172-31-0-90 systemd-networkd[886]: eth0: Configured
+Nov 30 20:17:30 ip-172-31-0-90 systemd-timesyncd[555]: Network configuration changed, trying to establish connection.
+Nov 30 20:17:30 ip-172-31-0-90 systemd-timesyncd[555]: Synchronized to time server 91.189.91.157:123 (ntp.ubuntu.com).
+Nov 30 20:58:45 ip-172-31-0-90 systemd-networkd[886]: eth0: Configured
+Nov 30 20:58:45 ip-172-31-0-90 systemd-timesyncd[555]: Network configuration changed, trying to establish connection.
+Nov 30 20:58:46 ip-172-31-0-90 systemd-timesyncd[555]: Synchronized to time server 91.189.91.157:123 (ntp.ubuntu.com).
+Nov 30 21:05:20 ip-172-31-0-90 snapd[1343]: storehelpers.go:551: cannot refresh: snap has no updates available: "amazon-ssm-agent", "core18"
+Nov 30 21:07:09 ip-172-31-0-90 systemd[1]: Reloading.
+Nov 30 21:07:09 ip-172-31-0-90 systemd[1]: Mounting Mount unit for core, revision 10444...
+Nov 30 21:07:09 ip-172-31-0-90 systemd[1]: Mounted Mount unit for core, revision 10444.
+Nov 30 21:07:10 ip-172-31-0-90 kernel: [52937.130030] audit: type=1400 audit(1606770430.574:27): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/snap/core/10444/usr/lib/snapd/snap-confine" pid=9225 comm="apparmor_parser"
+Nov 30 21:07:10 ip-172-31-0-90 kernel: [52937.130460] audit: type=1400 audit(1606770430.574:28): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/snap/core/10444/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=9225 comm="apparmor_parser"
+Nov 30 21:07:10 ip-172-31-0-90 kernel: [52937.218083] audit: type=1400 audit(1606770430.662:29): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.core.hook.configure" pid=9227 comm="apparmor_parser"
+Nov 30 21:07:10 ip-172-31-0-90 kernel: [52937.222553] audit: type=1400 audit(1606770430.666:30): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.core" pid=9229 comm="apparmor_parser"
+Nov 30 21:07:10 ip-172-31-0-90 snapd[1343]: daemon.go:542: gracefully waiting for running hooks
+Nov 30 21:07:10 ip-172-31-0-90 snapd[1343]: daemon.go:544: done waiting for running hooks
+Nov 30 21:07:11 ip-172-31-0-90 systemd[1]: snapd.service: Service hold-off time over, scheduling restart.
+Nov 30 21:07:11 ip-172-31-0-90 systemd[1]: snapd.service: Scheduled restart job, restart counter is at 2.
+Nov 30 21:07:11 ip-172-31-0-90 systemd[1]: Stopped Snap Daemon.
+Nov 30 21:07:11 ip-172-31-0-90 systemd[1]: Starting Snap Daemon...
+Nov 30 21:07:11 ip-172-31-0-90 snapd[9243]: AppArmor status: apparmor is enabled and all features are available
+Nov 30 21:07:11 ip-172-31-0-90 snapd[9243]: AppArmor status: apparmor is enabled and all features are available
+Nov 30 21:07:11 ip-172-31-0-90 snapd[9243]: patch.go:64: Patching system state level 6 to sublevel 1...
+Nov 30 21:07:11 ip-172-31-0-90 snapd[9243]: patch.go:64: Patching system state level 6 to sublevel 2...
+Nov 30 21:07:11 ip-172-31-0-90 snapd[9243]: patch.go:64: Patching system state level 6 to sublevel 3...
+Nov 30 21:07:11 ip-172-31-0-90 snapd[9243]: daemon.go:347: started snapd/2.48 (series 16; classic) ubuntu/18.04 (amd64) linux/5.4.0-1029-aws.
+Nov 30 21:07:11 ip-172-31-0-90 snapd[9243]: daemon.go:440: adjusting startup timeout by 45s (pessimistic estimate of 30s plus 5s per snap)
+Nov 30 21:07:12 ip-172-31-0-90 kernel: [52938.667537] audit: type=1400 audit(1606770432.110:31): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/snap/core/10444/usr/lib/snapd/snap-confine" pid=9323 comm="apparmor_parser"
+Nov 30 21:07:12 ip-172-31-0-90 kernel: [52938.667964] audit: type=1400 audit(1606770432.114:32): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/snap/core/10444/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=9323 comm="apparmor_parser"
+Nov 30 21:07:12 ip-172-31-0-90 kernel: [52938.751410] audit: type=1400 audit(1606770432.194:33): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.core.hook.configure" pid=9325 comm="apparmor_parser"
+Nov 30 21:07:12 ip-172-31-0-90 kernel: [52938.755281] audit: type=1400 audit(1606770432.198:34): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.amazon-ssm-agent" pid=9327 comm="apparmor_parser"
+Nov 30 21:07:12 ip-172-31-0-90 kernel: [52938.756404] audit: type=1400 audit(1606770432.202:35): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.amazon-ssm-agent.amazon-ssm-agent" pid=9328 comm="apparmor_parser"
+Nov 30 21:07:12 ip-172-31-0-90 kernel: [52938.757371] audit: type=1400 audit(1606770432.202:36): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.amazon-ssm-agent.ssm-cli" pid=9329 comm="apparmor_parser"
+Nov 30 21:07:12 ip-172-31-0-90 systemd[1]: Started Snap Daemon.
+Nov 30 21:07:14 ip-172-31-0-90 snapd[9243]: storehelpers.go:551: cannot refresh snap "core": snap has no updates available
+Nov 30 21:17:01 ip-172-31-0-90 CRON[9356]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Nov 30 21:28:46 ip-172-31-0-90 systemd-networkd[886]: eth0: Configured
+Nov 30 21:28:46 ip-172-31-0-90 systemd-timesyncd[555]: Network configuration changed, trying to establish connection.
+Nov 30 21:28:46 ip-172-31-0-90 systemd-timesyncd[555]: Synchronized to time server 91.189.91.157:123 (ntp.ubuntu.com).
+Nov 30 21:58:45 ip-172-31-0-90 systemd-networkd[886]: eth0: Configured
+Nov 30 21:58:45 ip-172-31-0-90 systemd-timesyncd[555]: Network configuration changed, trying to establish connection.
+Nov 30 21:58:45 ip-172-31-0-90 systemd-timesyncd[555]: Synchronized to time server 91.189.91.157:123 (ntp.ubuntu.com).
+Nov 30 22:17:01 ip-172-31-0-90 CRON[9439]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Nov 30 22:28:24 ip-172-31-0-90 systemd[1]: Created slice User Slice of ubuntu.
+Nov 30 22:28:24 ip-172-31-0-90 systemd[1]: Starting User Manager for UID 1000...
+Nov 30 22:28:24 ip-172-31-0-90 systemd[1]: Started Session 19 of user ubuntu.
+Nov 30 22:28:24 ip-172-31-0-90 systemd[9457]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Nov 30 22:28:24 ip-172-31-0-90 systemd[9457]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Nov 30 22:28:24 ip-172-31-0-90 systemd[9457]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Nov 30 22:28:24 ip-172-31-0-90 systemd[9457]: Listening on GnuPG cryptographic agent and passphrase cache.
+Nov 30 22:28:24 ip-172-31-0-90 systemd[9457]: Listening on GnuPG network certificate management daemon.
+Nov 30 22:28:24 ip-172-31-0-90 systemd[9457]: Listening on REST API socket for snapd user session agent.
+Nov 30 22:28:24 ip-172-31-0-90 systemd[9457]: Reached target Timers.
+Nov 30 22:28:24 ip-172-31-0-90 systemd[9457]: Reached target Paths.
+Nov 30 22:28:24 ip-172-31-0-90 systemd[9457]: Reached target Sockets.
+Nov 30 22:28:24 ip-172-31-0-90 systemd[9457]: Reached target Basic System.
+Nov 30 22:28:24 ip-172-31-0-90 systemd[1]: Started User Manager for UID 1000.
+Nov 30 22:28:24 ip-172-31-0-90 systemd[9457]: Reached target Default.
+Nov 30 22:28:24 ip-172-31-0-90 systemd[9457]: Startup finished in 67ms.
+Nov 30 22:28:45 ip-172-31-0-90 systemd-networkd[886]: eth0: Configured
+Nov 30 22:28:45 ip-172-31-0-90 systemd-timesyncd[555]: Network configuration changed, trying to establish connection.
+Nov 30 22:28:45 ip-172-31-0-90 systemd-timesyncd[555]: Synchronized to time server 91.189.91.157:123 (ntp.ubuntu.com).
+Nov 30 22:29:41 ip-172-31-0-90 systemd[1]: Stopping User Manager for UID 1000...
+Nov 30 22:29:41 ip-172-31-0-90 systemd[9457]: Stopped target Default.
+Nov 30 22:29:41 ip-172-31-0-90 systemd[9457]: Stopped target Basic System.
+Nov 30 22:29:41 ip-172-31-0-90 systemd[9457]: Stopped target Timers.
+Nov 30 22:29:41 ip-172-31-0-90 systemd[9457]: Stopped target Paths.
+Nov 30 22:29:41 ip-172-31-0-90 systemd[9457]: Stopped target Sockets.
+Nov 30 22:29:41 ip-172-31-0-90 systemd[9457]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Nov 30 22:29:41 ip-172-31-0-90 systemd[9457]: Closed GnuPG network certificate management daemon.
+Nov 30 22:29:41 ip-172-31-0-90 systemd[9457]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Nov 30 22:29:41 ip-172-31-0-90 systemd[9457]: Closed GnuPG cryptographic agent and passphrase cache.
+Nov 30 22:29:41 ip-172-31-0-90 systemd[9457]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Nov 30 22:29:41 ip-172-31-0-90 systemd[9457]: Closed REST API socket for snapd user session agent.
+Nov 30 22:29:41 ip-172-31-0-90 systemd[9457]: Reached target Shutdown.
+Nov 30 22:29:41 ip-172-31-0-90 systemd[9457]: Starting Exit the Session...
+Nov 30 22:29:41 ip-172-31-0-90 systemd[9457]: Received SIGRTMIN+24 from PID 9597 (kill).
+Nov 30 22:29:41 ip-172-31-0-90 systemd[1]: user@1000.service: Killing process 9597 (kill) with signal SIGKILL.
+Nov 30 22:29:41 ip-172-31-0-90 systemd[1]: Stopped User Manager for UID 1000.
+Nov 30 22:29:41 ip-172-31-0-90 systemd[1]: Removed slice User Slice of ubuntu.
+Nov 30 22:58:45 ip-172-31-0-90 systemd-networkd[886]: eth0: Configured
+Nov 30 22:58:45 ip-172-31-0-90 systemd-timesyncd[555]: Network configuration changed, trying to establish connection.
+Nov 30 22:58:45 ip-172-31-0-90 systemd-timesyncd[555]: Synchronized to time server 91.189.91.157:123 (ntp.ubuntu.com).
+Nov 30 23:17:01 ip-172-31-0-90 CRON[9659]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Nov 30 23:28:43 ip-172-31-0-90 systemd-networkd[886]: eth0: Configured
+Nov 30 23:28:43 ip-172-31-0-90 systemd-timesyncd[555]: Network configuration changed, trying to establish connection.
+Nov 30 23:28:44 ip-172-31-0-90 systemd-timesyncd[555]: Synchronized to time server 91.189.91.157:123 (ntp.ubuntu.com).
+Nov 30 23:58:44 ip-172-31-0-90 systemd-networkd[886]: eth0: Configured
+Nov 30 23:58:44 ip-172-31-0-90 systemd-timesyncd[555]: Network configuration changed, trying to establish connection.
+Nov 30 23:58:44 ip-172-31-0-90 systemd-timesyncd[555]: Synchronized to time server 91.189.91.157:123 (ntp.ubuntu.com).
+Dec  1 00:17:01 ip-172-31-0-90 CRON[9735]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Dec  1 00:20:01 ip-172-31-0-90 CRON[9741]: (root) CMD (   test -x /etc/cron.daily/popularity-contest && /etc/cron.daily/popularity-contest --crond)
+Dec  1 00:39:59 ip-172-31-0-90 systemd-networkd[886]: eth0: Configured
+Dec  1 00:39:59 ip-172-31-0-90 systemd-timesyncd[555]: Network configuration changed, trying to establish connection.
+Dec  1 00:39:59 ip-172-31-0-90 systemd-timesyncd[555]: Synchronized to time server 91.189.91.157:123 (ntp.ubuntu.com).
+Dec  1 01:09:58 ip-172-31-0-90 systemd-networkd[886]: eth0: Configured
+Dec  1 01:09:58 ip-172-31-0-90 systemd-timesyncd[555]: Network configuration changed, trying to establish connection.
+Dec  1 01:09:59 ip-172-31-0-90 systemd-timesyncd[555]: Synchronized to time server 91.189.91.157:123 (ntp.ubuntu.com).
+Dec  1 01:17:01 ip-172-31-0-90 CRON[9804]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Dec  1 02:02:26 ip-172-31-0-90 systemd-networkd[886]: eth0: Configured
+Dec  1 02:02:26 ip-172-31-0-90 systemd-timesyncd[555]: Network configuration changed, trying to establish connection.
+Dec  1 02:02:27 ip-172-31-0-90 systemd-timesyncd[555]: Synchronized to time server 91.189.91.157:123 (ntp.ubuntu.com).
+Dec  1 02:17:01 ip-172-31-0-90 CRON[9909]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Dec  1 02:32:27 ip-172-31-0-90 systemd-networkd[886]: eth0: Configured
+Dec  1 02:32:27 ip-172-31-0-90 systemd-timesyncd[555]: Network configuration changed, trying to establish connection.
+Dec  1 02:32:27 ip-172-31-0-90 systemd-timesyncd[555]: Synchronized to time server 91.189.91.157:123 (ntp.ubuntu.com).
+Dec  1 03:02:26 ip-172-31-0-90 systemd-networkd[886]: eth0: Configured
+Dec  1 03:02:26 ip-172-31-0-90 systemd-timesyncd[555]: Network configuration changed, trying to establish connection.
+Dec  1 03:02:36 ip-172-31-0-90 systemd-timesyncd[555]: Timed out waiting for reply from 91.189.91.157:123 (ntp.ubuntu.com).
+Dec  1 03:02:36 ip-172-31-0-90 systemd-timesyncd[555]: Synchronized to time server 91.189.94.4:123 (ntp.ubuntu.com).
+Dec  1 03:17:01 ip-172-31-0-90 CRON[9985]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Dec  1 03:32:26 ip-172-31-0-90 systemd-networkd[886]: eth0: Configured
+Dec  1 03:32:26 ip-172-31-0-90 systemd-timesyncd[555]: Network configuration changed, trying to establish connection.
+Dec  1 03:32:27 ip-172-31-0-90 systemd-timesyncd[555]: Synchronized to time server 91.189.94.4:123 (ntp.ubuntu.com).
+Dec  1 04:02:26 ip-172-31-0-90 systemd-networkd[886]: eth0: Configured
+Dec  1 04:02:26 ip-172-31-0-90 systemd-timesyncd[555]: Network configuration changed, trying to establish connection.
+Dec  1 04:02:26 ip-172-31-0-90 systemd-timesyncd[555]: Synchronized to time server 91.189.94.4:123 (ntp.ubuntu.com).
+Dec  1 04:17:01 ip-172-31-0-90 CRON[10189]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Dec  1 04:32:26 ip-172-31-0-90 systemd-networkd[886]: eth0: Configured
+Dec  1 04:32:26 ip-172-31-0-90 systemd-timesyncd[555]: Network configuration changed, trying to establish connection.
+Dec  1 04:32:27 ip-172-31-0-90 systemd-timesyncd[555]: Synchronized to time server 91.189.94.4:123 (ntp.ubuntu.com).
+Dec  1 05:02:26 ip-172-31-0-90 systemd-networkd[886]: eth0: Configured
+Dec  1 05:02:26 ip-172-31-0-90 systemd-timesyncd[555]: Network configuration changed, trying to establish connection.
+Dec  1 05:02:26 ip-172-31-0-90 systemd-timesyncd[555]: Synchronized to time server 91.189.94.4:123 (ntp.ubuntu.com).
+Dec  1 05:17:01 ip-172-31-0-90 CRON[10292]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Dec  1 05:27:13 ip-172-31-0-90 snapd[9243]: storehelpers.go:551: cannot refresh: snap has no updates available: "amazon-ssm-agent", "core", "core18"
+Dec  1 05:27:13 ip-172-31-0-90 snapd[9243]: autorefresh.go:479: auto-refresh: all snaps are up-to-date
+Dec  1 05:32:26 ip-172-31-0-90 systemd-networkd[886]: eth0: Configured
+Dec  1 05:32:26 ip-172-31-0-90 systemd-timesyncd[555]: Network configuration changed, trying to establish connection.
+Dec  1 05:32:27 ip-172-31-0-90 systemd-timesyncd[555]: Synchronized to time server 91.189.94.4:123 (ntp.ubuntu.com).
+Dec  1 05:38:50 ip-172-31-0-90 systemd[1]: Starting Message of the Day...
+Dec  1 05:38:51 ip-172-31-0-90 50-motd-news[10327]:  * Introducing self-healing high availability clusters in MicroK8s.
+Dec  1 05:38:51 ip-172-31-0-90 50-motd-news[10327]:    Simple, hardened, Kubernetes for production, from RaspberryPi to DC.
+Dec  1 05:38:51 ip-172-31-0-90 50-motd-news[10327]:      https://microk8s.io/high-availability
+Dec  1 05:38:51 ip-172-31-0-90 systemd[1]: Started Message of the Day.
+Dec  1 06:13:42 ip-172-31-0-90 systemd-networkd[886]: eth0: Configured
+Dec  1 06:13:42 ip-172-31-0-90 systemd-timesyncd[555]: Network configuration changed, trying to establish connection.
+Dec  1 06:13:42 ip-172-31-0-90 systemd-timesyncd[555]: Synchronized to time server 91.189.94.4:123 (ntp.ubuntu.com).
+Dec  1 06:17:01 ip-172-31-0-90 CRON[10440]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Dec  1 06:20:44 ip-172-31-0-90 systemd[1]: Starting Daily apt upgrade and clean activities...
+Dec  1 06:20:49 ip-172-31-0-90 systemd-resolved[894]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Dec  1 06:21:23 ip-172-31-0-90 dbus-daemon[1043]: [system] Reloaded configuration
+Dec  1 06:21:23 ip-172-31-0-90 dbus-daemon[1043]: message repeated 4 times: [ [system] Reloaded configuration]
+Dec  1 06:21:23 ip-172-31-0-90 systemd[1]: Reloading.
+Dec  1 06:21:23 ip-172-31-0-90 dbus-daemon[1043]: [system] Reloaded configuration
+Dec  1 06:21:23 ip-172-31-0-90 dbus-daemon[1043]: [system] Reloaded configuration
+Dec  1 06:21:23 ip-172-31-0-90 systemd[1]: Reloading.
+Dec  1 06:21:23 ip-172-31-0-90 systemd[1]: Stopping Accounts Service...
+Dec  1 06:21:23 ip-172-31-0-90 systemd[1]: Stopped Accounts Service.
+Dec  1 06:21:23 ip-172-31-0-90 systemd[1]: Starting Accounts Service...
+Dec  1 06:21:23 ip-172-31-0-90 accounts-daemon[17760]: started daemon version 0.6.45
+Dec  1 06:21:23 ip-172-31-0-90 systemd[1]: Started Accounts Service.
+Dec  1 06:21:23 ip-172-31-0-90 dbus-daemon[1043]: [system] Reloaded configuration
+Dec  1 06:21:26 ip-172-31-0-90 systemd[1]: Reloading.
+Dec  1 06:21:26 ip-172-31-0-90 systemd[1]: Stopping LSB: automatic crash report generation...
+Dec  1 06:21:26 ip-172-31-0-90 apport[17881]:  * Stopping automatic crash report generation: apport
+Dec  1 06:21:26 ip-172-31-0-90 apport[17881]:    ...done.
+Dec  1 06:21:26 ip-172-31-0-90 systemd[1]: Stopped LSB: automatic crash report generation.
+Dec  1 06:21:26 ip-172-31-0-90 systemd[1]: Reloading.
+Dec  1 06:21:27 ip-172-31-0-90 systemd[1]: message repeated 4 times: [ Reloading.]
+Dec  1 06:21:27 ip-172-31-0-90 systemd[1]: Starting LSB: automatic crash report generation...
+Dec  1 06:21:27 ip-172-31-0-90 apport[18119]:  * Starting automatic crash report generation: apport
+Dec  1 06:21:27 ip-172-31-0-90 apport[18119]:    ...done.
+Dec  1 06:21:27 ip-172-31-0-90 systemd[1]: Started LSB: automatic crash report generation.
+Dec  1 06:21:27 ip-172-31-0-90 systemd[1]: Reloading.
+Dec  1 06:21:35 ip-172-31-0-90 systemd[1]: Started Daily apt upgrade and clean activities.
+Dec  1 06:25:01 ip-172-31-0-90 CRON[18525]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Dec  1 06:40:44 ip-172-31-0-90 systemd[1]: Starting Cleanup of Temporary Directories...
+Dec  1 06:40:44 ip-172-31-0-90 systemd[1]: Started Cleanup of Temporary Directories.
+Dec  1 06:43:41 ip-172-31-0-90 systemd-networkd[886]: eth0: Configured
+Dec  1 06:43:41 ip-172-31-0-90 systemd-timesyncd[555]: Network configuration changed, trying to establish connection.
+Dec  1 06:43:41 ip-172-31-0-90 systemd-timesyncd[555]: Synchronized to time server 91.189.94.4:123 (ntp.ubuntu.com).
+Dec  1 06:52:01 ip-172-31-0-90 CRON[18717]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.monthly ))
+Dec  1 07:13:40 ip-172-31-0-90 systemd-networkd[886]: eth0: Configured
+Dec  1 07:13:40 ip-172-31-0-90 systemd-timesyncd[555]: Network configuration changed, trying to establish connection.
+Dec  1 07:13:40 ip-172-31-0-90 systemd-timesyncd[555]: Synchronized to time server 91.189.94.4:123 (ntp.ubuntu.com).
+Dec  1 07:17:01 ip-172-31-0-90 CRON[18747]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Dec  1 07:43:40 ip-172-31-0-90 systemd-networkd[886]: eth0: Configured
+Dec  1 07:43:40 ip-172-31-0-90 systemd-timesyncd[555]: Network configuration changed, trying to establish connection.
+Dec  1 07:43:40 ip-172-31-0-90 systemd-timesyncd[555]: Synchronized to time server 91.189.94.4:123 (ntp.ubuntu.com).
+Dec  1 08:13:40 ip-172-31-0-90 systemd-networkd[886]: eth0: Configured
+Dec  1 08:13:40 ip-172-31-0-90 systemd-timesyncd[555]: Network configuration changed, trying to establish connection.
+Dec  1 08:13:40 ip-172-31-0-90 systemd-timesyncd[555]: Synchronized to time server 91.189.94.4:123 (ntp.ubuntu.com).
+Dec  1 08:17:01 ip-172-31-0-90 CRON[18826]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Dec  1 08:43:38 ip-172-31-0-90 systemd-networkd[886]: eth0: Configured
+Dec  1 08:43:38 ip-172-31-0-90 systemd-timesyncd[555]: Network configuration changed, trying to establish connection.
+Dec  1 08:43:39 ip-172-31-0-90 systemd-timesyncd[555]: Synchronized to time server 91.189.94.4:123 (ntp.ubuntu.com).
+Dec  1 09:13:38 ip-172-31-0-90 systemd-networkd[886]: eth0: Configured
+Dec  1 09:13:38 ip-172-31-0-90 systemd-timesyncd[555]: Network configuration changed, trying to establish connection.
+Dec  1 09:13:39 ip-172-31-0-90 systemd-timesyncd[555]: Synchronized to time server 91.189.94.4:123 (ntp.ubuntu.com).
+Dec  1 09:17:01 ip-172-31-0-90 CRON[18961]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Dec  1 09:42:13 ip-172-31-0-90 snapd[9243]: storehelpers.go:551: cannot refresh: snap has no updates available: "amazon-ssm-agent", "core", "core18"
+Dec  1 09:42:13 ip-172-31-0-90 snapd[9243]: autorefresh.go:479: auto-refresh: all snaps are up-to-date
+Dec  1 09:43:38 ip-172-31-0-90 systemd-networkd[886]: eth0: Configured
+Dec  1 09:43:38 ip-172-31-0-90 systemd-timesyncd[555]: Network configuration changed, trying to establish connection.
+Dec  1 09:43:38 ip-172-31-0-90 systemd-timesyncd[555]: Synchronized to time server 91.189.94.4:123 (ntp.ubuntu.com).
+Dec  1 10:13:38 ip-172-31-0-90 systemd-networkd[886]: eth0: Configured
+Dec  1 10:13:38 ip-172-31-0-90 systemd-timesyncd[555]: Network configuration changed, trying to establish connection.
+Dec  1 10:13:38 ip-172-31-0-90 systemd-timesyncd[555]: Synchronized to time server 91.189.94.4:123 (ntp.ubuntu.com).
+Dec  1 10:17:01 ip-172-31-0-90 CRON[19069]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Dec  1 10:43:38 ip-172-31-0-90 systemd-networkd[886]: eth0: Configured
+Dec  1 10:43:38 ip-172-31-0-90 systemd-timesyncd[555]: Network configuration changed, trying to establish connection.
+Dec  1 10:43:38 ip-172-31-0-90 systemd-timesyncd[555]: Synchronized to time server 91.189.94.4:123 (ntp.ubuntu.com).
+Dec  1 11:13:37 ip-172-31-0-90 systemd-networkd[886]: eth0: Configured
+Dec  1 11:13:37 ip-172-31-0-90 systemd-timesyncd[555]: Network configuration changed, trying to establish connection.
+Dec  1 11:13:37 ip-172-31-0-90 systemd-timesyncd[555]: Synchronized to time server 91.189.94.4:123 (ntp.ubuntu.com).
+Dec  1 11:17:01 ip-172-31-0-90 CRON[19146]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Dec  1 11:43:37 ip-172-31-0-90 systemd-timesyncd[555]: Network configuration changed, trying to establish connection.
+Dec  1 11:43:37 ip-172-31-0-90 systemd-networkd[886]: eth0: Configured
+Dec  1 11:43:37 ip-172-31-0-90 systemd-timesyncd[555]: Synchronized to time server 91.189.94.4:123 (ntp.ubuntu.com).
+Dec  1 12:07:13 ip-172-31-0-90 snapd[9243]: storehelpers.go:551: cannot refresh: snap has no updates available: "amazon-ssm-agent", "core", "core18"
+Dec  1 12:07:13 ip-172-31-0-90 snapd[9243]: autorefresh.go:479: auto-refresh: all snaps are up-to-date
+Dec  1 12:13:37 ip-172-31-0-90 systemd-networkd[886]: eth0: Configured
+Dec  1 12:13:37 ip-172-31-0-90 systemd-timesyncd[555]: Network configuration changed, trying to establish connection.
+Dec  1 12:13:38 ip-172-31-0-90 systemd-timesyncd[555]: Synchronized to time server 91.189.94.4:123 (ntp.ubuntu.com).
+Dec  1 12:17:01 ip-172-31-0-90 CRON[19241]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Dec  1 12:43:36 ip-172-31-0-90 systemd-networkd[886]: eth0: Configured
+Dec  1 12:43:36 ip-172-31-0-90 systemd-timesyncd[555]: Network configuration changed, trying to establish connection.
+Dec  1 12:43:36 ip-172-31-0-90 systemd-timesyncd[555]: Synchronized to time server 91.189.94.4:123 (ntp.ubuntu.com).
+Dec  1 13:13:35 ip-172-31-0-90 systemd-networkd[886]: eth0: Configured
+Dec  1 13:13:35 ip-172-31-0-90 systemd-timesyncd[555]: Network configuration changed, trying to establish connection.
+Dec  1 13:13:35 ip-172-31-0-90 systemd-timesyncd[555]: Synchronized to time server 91.189.94.4:123 (ntp.ubuntu.com).
+Dec  1 13:17:01 ip-172-31-0-90 CRON[19315]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Dec  1 13:43:35 ip-172-31-0-90 systemd-networkd[886]: eth0: Configured
+Dec  1 13:43:35 ip-172-31-0-90 systemd-timesyncd[555]: Network configuration changed, trying to establish connection.
+Dec  1 13:43:35 ip-172-31-0-90 systemd-timesyncd[555]: Synchronized to time server 91.189.94.4:123 (ntp.ubuntu.com).
+Dec  1 14:01:44 ip-172-31-0-90 systemd[1]: Starting Message of the Day...
+Dec  1 14:01:46 ip-172-31-0-90 50-motd-news[19372]:  * Introducing self-healing high availability clusters in MicroK8s.
+Dec  1 14:01:46 ip-172-31-0-90 50-motd-news[19372]:    Simple, hardened, Kubernetes for production, from RaspberryPi to DC.
+Dec  1 14:01:46 ip-172-31-0-90 50-motd-news[19372]:      https://microk8s.io/high-availability
+Dec  1 14:01:46 ip-172-31-0-90 systemd[1]: Started Message of the Day.
+Dec  1 14:13:35 ip-172-31-0-90 systemd-networkd[886]: eth0: Configured
+Dec  1 14:13:35 ip-172-31-0-90 systemd-timesyncd[555]: Network configuration changed, trying to establish connection.
+Dec  1 14:13:35 ip-172-31-0-90 systemd-timesyncd[555]: Synchronized to time server 91.189.94.4:123 (ntp.ubuntu.com).
+Dec  1 14:17:01 ip-172-31-0-90 CRON[19458]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Dec  1 14:43:34 ip-172-31-0-90 systemd-networkd[886]: eth0: Configured
+Dec  1 14:43:34 ip-172-31-0-90 systemd-timesyncd[555]: Network configuration changed, trying to establish connection.
+Dec  1 14:43:34 ip-172-31-0-90 systemd-timesyncd[555]: Synchronized to time server 91.189.94.4:123 (ntp.ubuntu.com).
+Dec  1 15:13:33 ip-172-31-0-90 systemd-timesyncd[555]: Network configuration changed, trying to establish connection.
+Dec  1 15:13:33 ip-172-31-0-90 systemd-networkd[886]: eth0: Configured
+Dec  1 15:13:33 ip-172-31-0-90 systemd-timesyncd[555]: Synchronized to time server 91.189.94.4:123 (ntp.ubuntu.com).
+Dec  1 15:17:01 ip-172-31-0-90 CRON[19736]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Dec  1 15:43:32 ip-172-31-0-90 systemd-networkd[886]: eth0: Configured
+Dec  1 15:43:32 ip-172-31-0-90 systemd-timesyncd[555]: Network configuration changed, trying to establish connection.
+Dec  1 15:43:33 ip-172-31-0-90 systemd-timesyncd[555]: Synchronized to time server 91.189.94.4:123 (ntp.ubuntu.com).
+Dec  1 16:13:32 ip-172-31-0-90 systemd-networkd[886]: eth0: Configured
+Dec  1 16:13:32 ip-172-31-0-90 systemd-timesyncd[555]: Network configuration changed, trying to establish connection.
+Dec  1 16:13:32 ip-172-31-0-90 systemd-timesyncd[555]: Synchronized to time server 91.189.94.4:123 (ntp.ubuntu.com).
+Dec  1 16:17:01 ip-172-31-0-90 CRON[19831]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Dec  1 16:43:32 ip-172-31-0-90 systemd-networkd[886]: eth0: Configured
+Dec  1 16:43:32 ip-172-31-0-90 systemd-timesyncd[555]: Network configuration changed, trying to establish connection.
+Dec  1 16:43:32 ip-172-31-0-90 systemd-timesyncd[555]: Synchronized to time server 91.189.94.4:123 (ntp.ubuntu.com).
+Dec  1 16:56:01 ip-172-31-0-90 systemd[1]: Created slice User Slice of ubuntu.
+Dec  1 16:56:01 ip-172-31-0-90 systemd[1]: Starting User Manager for UID 1000...
+Dec  1 16:56:01 ip-172-31-0-90 systemd[1]: Started Session 42 of user ubuntu.
+Dec  1 16:56:01 ip-172-31-0-90 systemd[19884]: Listening on GnuPG cryptographic agent and passphrase cache.
+Dec  1 16:56:01 ip-172-31-0-90 systemd[19884]: Listening on GnuPG network certificate management daemon.
+Dec  1 16:56:01 ip-172-31-0-90 systemd[19884]: Reached target Paths.
+Dec  1 16:56:01 ip-172-31-0-90 systemd[19884]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Dec  1 16:56:01 ip-172-31-0-90 systemd[19884]: Listening on REST API socket for snapd user session agent.
+Dec  1 16:56:01 ip-172-31-0-90 systemd[19884]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Dec  1 16:56:01 ip-172-31-0-90 systemd[19884]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Dec  1 16:56:01 ip-172-31-0-90 systemd[19884]: Reached target Sockets.
+Dec  1 16:56:01 ip-172-31-0-90 systemd[19884]: Reached target Timers.
+Dec  1 16:56:01 ip-172-31-0-90 systemd[19884]: Reached target Basic System.
+Dec  1 16:56:01 ip-172-31-0-90 systemd[1]: Started User Manager for UID 1000.
+Dec  1 16:56:01 ip-172-31-0-90 systemd[19884]: Reached target Default.
+Dec  1 16:56:01 ip-172-31-0-90 systemd[19884]: Startup finished in 27ms.
